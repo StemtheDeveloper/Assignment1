@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+* {
+    z-index: 1;
+}
+
+.screen {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    gap: 20px;
+    width: 430px;
+    height: 932px;
+    background: #343434 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+#burger {
+    z-index: 4;
+    position: fixed;
+    top: 8%;
+    left: 58%;
+    right: 42%;
+    bottom: 92%;
+    width: 2%;
+    height: 2%;
+}
+
+/* top of screen */
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* nav bar */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.animationCon {
+    z-index: 2;
+}
+
+.animationCon {
+    
+    position: fixed;
+    top: 17%;
+    left: 54%;
+    right: 46%;
+    bottom: 83%;
+}
+
+
+  
+
+.blank {
+    width: 105px;
+    opacity: 0;
+}
+
+/* home button */
+
+
+
+/* home screen */
+
+#header {
+    /* Layout Properties */
+    top: 30px;
+    left: 124px;
+    width: 182px;
+    height: 92px;
+    /* UI Properties */
+    background: transparent url('Stiaan SCP website/Assets/SCP Foundation.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+/* scroll bar */
+
+.scroll-box {
+    height: auto;   /* set the height of the scroll box */
+    width: auto;
+    overflow-y: scroll;   /* enable vertical scrolling */
+    border: 1px solid #424242;   /* add a border for styling */
+    padding: 10px;   /* add some padding for spacing */
+    color: white;
+    border: none;
+
+}
+
+.hov:hover {
+    opacity: 80%;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #646464;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #303030;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #070707;
+  }
